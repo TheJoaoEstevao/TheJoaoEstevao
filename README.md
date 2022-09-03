@@ -1,7 +1,9 @@
 #include <unistd.h>
+
 int main(void)
 
 {
+
   write(1, "👋 Hi, I’m @TheJoaoEstevao", 25); 
   
   write(1, "👀 I’m interested in creating and learning code!", 40);
